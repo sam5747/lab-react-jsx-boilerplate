@@ -1,1 +1,14 @@
 /* add your styles here */
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .image-item img {
+    width: 100%;
+    height: auto;
+  }
+  .gallery h1{
+    text-align: center;
+  }
